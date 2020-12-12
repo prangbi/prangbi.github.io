@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>프랑비의 개발로그</title>
+    <link>http://prangbi.github.io/</link>
+    <description>Recent content on 프랑비의 개발로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 13 Dec 2020 00:33:44 +0900</lastBuildDate><atom:link href="http://prangbi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub 페이지 초기 설정</title>
+      <link>http://prangbi.github.io/posts/20201213-1/</link>
+      <pubDate>Sun, 13 Dec 2020 00:33:44 +0900</pubDate>
+      
+      <guid>http://prangbi.github.io/posts/20201213-1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
