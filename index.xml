@@ -6,7 +6,17 @@
     <description>Recent content on 프랑비의 개발로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Tue, 15 Dec 2020 22:47:44 +0900</lastBuildDate><atom:link href="http://prangbi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 07:08:19 +0900</lastBuildDate><atom:link href="http://prangbi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visual Studio Code (VSCode)</title>
+      <link>http://prangbi.github.io/posts/2/</link>
+      <pubDate>Sat, 19 Dec 2020 07:08:19 +0900</pubDate>
+      
+      <guid>http://prangbi.github.io/posts/2/</guid>
+      <description>1. 서론 (Visual Studio Code = VSCode) 1-1. VSCode 사용 전 개발툴은 다양합니다. 저는 툴을 잘 다루지 못해서, 타겟 플랫폼 또는 언어에 최적화 되어 있고 추가 설정 필요 없는 IDE가 좋습니다. 하지만, Go 언어 개발용 LiteIDE를 제외하고는 점점 무거워지고, Mac/Linux/Windows 사용 중이라 OS에 따라 성능 차이가 심하게 나는 점 때문에 다른 툴이 없나 계속 찾아보곤 했죠.
+1-2. VSCode 사용 계기 그러다 GitHub에서 만든 Atom 에디터를 접했는데, 단순 에디터로 사용하기 편한 UI로 되어 있어 간단한 텍스트 편집용으로 종종 사용해 보다가, 느린 속도와 개발용으로는 별도 설정을 해주어야 해서 사용하지 않았습니다.</description>
+    </item>
+    
     <item>
       <title>GitHub Pages 초기 설정</title>
       <link>http://prangbi.github.io/posts/1/</link>
