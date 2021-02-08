@@ -6,7 +6,20 @@
     <description>Recent content on 프랑비의 개발로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Sun, 20 Dec 2020 11:15:43 +0900</lastBuildDate><atom:link href="http://prangbi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Feb 2021 22:08:44 +0900</lastBuildDate><atom:link href="http://prangbi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java 설치 및 VSCode 설정</title>
+      <link>http://prangbi.github.io/posts/4/</link>
+      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate>
+      
+      <guid>http://prangbi.github.io/posts/4/</guid>
+      <description>1. Java 설치 맥, 리눅스, 윈도우 사용자는 https://adoptopenjdk.net 에서 다운받아 설치하면 됩니다.
+맥에서는 아래와 같이 설치할 수도 있습니다.
+$ brew install openjdk ## 또는 $ port install openjdk 리눅스에서는 아래와 같이 설치할 수도 있습니다.
+$ snap install openjdk  2. VSCode 설정.  참고: https://code.visualstudio.com/docs/languages/java  상단 메뉴의 View - Extensions를 선택하거나 Ctrl+Shift+X를 입력해 익스텐션 뷰를 표시합니다. 아래 목록의 플러그인을 모두 설치합니다.
+Java Extension Pack { Visual Studio IntelliCode Language Support for Java(TM) by Red Hat Debugger for Java Maven for Java Project Manager for Java Java Test Runner } Tomcat for Java Jetty For Java Checkstyle for Java Java Linter Spring Boot Extension Pack { Spring Boot Tools Spring Initialize Java Support Spring Boot Dashboard Cloudfoundry Manifest YML Support Concourse CI Pipiline Editor }</description>
+    </item>
+    
     <item>
       <title>Go 설치 및 VSCode 설정</title>
       <link>http://prangbi.github.io/posts/3/</link>
