@@ -43,7 +43,7 @@
 1-2. 필요성 이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다.">
 <meta itemprop="datePublished" content="2021-09-07T22:09:10+09:00" />
 <meta itemprop="dateModified" content="2021-09-07T22:09:10+09:00" />
-<meta itemprop="wordCount" content="689">
+<meta itemprop="wordCount" content="688">
 
 
 
@@ -156,7 +156,7 @@
 <p>이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다. 이를 완화하기 위한 노력으로 one source, multi platform 솔루션을 도입하려는 노력이 많이 있었죠. 하지만, 기본적으로 오류가 많았고 OS 업데이트에 대한 대응이 제대로 되지 않는 등 문제가 많아 웹앱으로 많이 전환했습니다. 이후 퍼포먼스 측면에서 네이티브로 다시 개발하는 사례가 많아지면서 또다시 일정 산정 및 인력 투입 이슈가 발생했습니다.</p>
 <h3 id="1-2-react-native">1-2. React Native</h3>
 <p>지속적인 니즈가 있었던 one source, multi platform. Xamarin도 영향력이 상당하긴 했지만 React Native를 기준으로 제대로 정착되었다 생각합니다. 웹 개발자가 Javascript Reactive Programming을 그대로 앱에 적용할 수 있어 인력이 추가로 필요하지 않고, Android/iOS 모두 지원하며, 네이티브 보다는 느리지만 웹앱보다는 월등히 빨랐으니 한동안 많은 사랑을 받았습니다.<br>
-하지만, 페이스북에서 만든 것이라 페이스북 서비스에는 알맞았겠지만, 모바일 OS 특성을 이해하는 앱 개발자가 여전히 필요했고, React Native의 제약을 벗어난 요구사항은 네이티브로 개발해야 했으며, 시간의 흐름에 따라 웹앱의 속도가 빨라져 굳이 React Native로 한번 더 개발할 필요가 없어졌습니다.</p>
+그러나, 페이스북에서 만든 것이라 페이스북 서비스에는 알맞았겠지만, 모바일 OS 특성을 이해하는 앱 개발자가 여전히 필요했고, React Native의 제약을 벗어난 요구사항은 네이티브로 개발해야 했으며, 시간의 흐름에 따라 웹앱의 속도가 빨라져 굳이 React Native로 한번 더 개발할 필요가 없어졌습니다.</p>
 <h3 id="1-3-flutter">1-3. Flutter</h3>
 <p>이후 Flutter가 등장합니다. 구글에서 만든 UI 프레임워크인지라 최초에는 푸크시아 OS를 타겟으로 사용되었으며, 안드로이드/iOS/웹까지 하나의 소스로 지원하고, canvas에 직접 그리는 방식으로 네이티브 퍼포먼스를 제공합니다. 현 시점에서 React Native를 대체하고 있고, 향후 모바일/웹/데스크탑/임베디드 까지 하나의 코드 베이스로 지원할 예정입니다. Dart 언어로 개발되었으며, Flutter 설치 시 함께 설치됩니다. 언어에 대해 말이 많았지만 Flutter 발표 이후 인식이 많이 개선되었습니다.</p>
 <p> </p>
@@ -194,7 +194,7 @@ Tools • Dart 2.12.0
 </code></pre></div><p> </p>
 <h1 id="4-개발환경-설정">4. 개발환경 설정</h1>
 <h3 id="4-1-vscode-확장-플러그인-설치">4-1. VSCode 확장 플러그인 설치</h3>
-<p>[ 상단 메뉴 - 보기 - 확장 ] 선택 또는 Shift+Command+X 를 입력해 확장 탭으로 이동해 Flutter를 검색한 후 Dart Code에서 배포하는 Plugin 설치합니다.</p>
+<p>[ 상단 메뉴 - 보기 - 확장 ] 선택 또는 Shift+Command+X 를 입력해 확장 탭으로 이동해 Flutter를 검색한 후 Dart Code에서 배포하는 플러그인을 설치합니다.</p>
 <h3 id="4-2-flutter-doctor">4-2. Flutter doctor</h3>
 <p>Flutter doctor는 개발 환경 설정이 제대로 되었는지 검사하는 툴로, 미설치 또는 미설정 된 항목을 확인합니다. 상단 메뉴의 View - Command Palette를 선택하거나 Ctrl+Shift+P를 입력해 커맨드 팔레트를 실행합니다.<br>
 <code>&gt;Flutter: Run Flutter Docker</code> 를 입력하고 엔터를 입력합니다.
@@ -221,7 +221,7 @@ Tools • Dart 2.12.0
 <p>CocoaPods는 Swift와 Objective-C 패키지 매니저로, 애플 플랫폼의 앱 개발에 널리 사용됩니다.
 터미널에서</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ suto gem install cocoapods
-</code></pre></div><p>를 입력해 설치해 줍니다.
+</code></pre></div><p>를 입력해 설치합니다.
 <a href="/images/20210907/20210907_12.png"><img src="/images/20210907/20210907_12.png" alt="CocoaPods 설치"></a><br>
 <a href="/images/20210907/20210907_13.png"><img src="/images/20210907/20210907_13.png" alt="CocoaPods 설치"></a></p>
 <h3 id="4-5-설정-완료">4-5. 설정 완료</h3>
@@ -242,6 +242,7 @@ Tools • Dart 2.12.0
 <a href="/images/20210907/20210907_18.png"><img src="/images/20210907/20210907_18.png" alt="프로젝트 생성"></a><br>
 좌측 Flutter 탭을 선택하면 프로젝트 구조를 좀더 쉽게 파악할 수 있습니다.
 <a href="/images/20210907/20210907_19.png"><img src="/images/20210907/20210907_19.png" alt="프로젝트 생성"></a></p>
+<p> </p>
 <h1 id="6-실행-및-디버깅">6. 실행 및 디버깅</h1>
 <p>VSCode에서 F5를 누르거나 좌상단의 디버그 버튼을 누르면 크롬이 열리며 실행됩니다. 연결 포트는 실행 시 랜덤으로 결정됩니다. 이번에는 49960 포트네요.
 <a href="/images/20210907/20210907_20.png"><img src="/images/20210907/20210907_20.png" alt="앱 연결"></a><br>
