@@ -7,6 +7,36 @@
 	<title>Java 설치 및 VSCode 설정 - 프랑비의 개발로그</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
+		<meta property="og:title" content="Java 설치 및 VSCode 설정" />
+<meta property="og:description" content="구형 맥북을 팔고 임시로 구입한 노트북에다 리눅스를 설치해 사용하느라 바로 전 포스트까지는 리눅스 기준으로 작성했지만, 맥북 에어 M1을 구입했으니 이제부터 macOS 기준으로 작성합니다. 하지만, 개발환경이 VSCode로 동일하니 이질감이 없을 것입니다.   1. Java 설치 맥, 리눅스, 윈도우 사용자는 https://adoptopenjdk.net 에서 다운받아 설치하면 됩니다.
+맥에서는 아래와 같이 설치할 수도 있습니다.
+$ brew install openjdk ## 또는 $ port install openjdk 리눅스에서는 아래와 같이 설치할 수도 있습니다.
+$ snap install openjdk  2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://prangbi.github.io/post/4/" />
+<meta property="article:published_time" content="2021-02-08T22:08:44+09:00" />
+<meta property="article:modified_time" content="2021-02-08T22:08:44+09:00" />
+
+		<meta itemprop="name" content="Java 설치 및 VSCode 설정">
+<meta itemprop="description" content="구형 맥북을 팔고 임시로 구입한 노트북에다 리눅스를 설치해 사용하느라 바로 전 포스트까지는 리눅스 기준으로 작성했지만, 맥북 에어 M1을 구입했으니 이제부터 macOS 기준으로 작성합니다. 하지만, 개발환경이 VSCode로 동일하니 이질감이 없을 것입니다.   1. Java 설치 맥, 리눅스, 윈도우 사용자는 https://adoptopenjdk.net 에서 다운받아 설치하면 됩니다.
+맥에서는 아래와 같이 설치할 수도 있습니다.
+$ brew install openjdk ## 또는 $ port install openjdk 리눅스에서는 아래와 같이 설치할 수도 있습니다.
+$ snap install openjdk  2.">
+<meta itemprop="datePublished" content="2021-02-08T22:08:44+09:00" />
+<meta itemprop="dateModified" content="2021-02-08T22:08:44+09:00" />
+<meta itemprop="wordCount" content="312">
+
+
+
+<meta itemprop="keywords" content="" />
+
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Java 설치 및 VSCode 설정"/>
+<meta name="twitter:description" content="구형 맥북을 팔고 임시로 구입한 노트북에다 리눅스를 설치해 사용하느라 바로 전 포스트까지는 리눅스 기준으로 작성했지만, 맥북 에어 M1을 구입했으니 이제부터 macOS 기준으로 작성합니다. 하지만, 개발환경이 VSCode로 동일하니 이질감이 없을 것입니다.   1. Java 설치 맥, 리눅스, 윈도우 사용자는 https://adoptopenjdk.net 에서 다운받아 설치하면 됩니다.
+맥에서는 아래와 같이 설치할 수도 있습니다.
+$ brew install openjdk ## 또는 $ port install openjdk 리눅스에서는 아래와 같이 설치할 수도 있습니다.
+$ snap install openjdk  2."/>
+
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -54,7 +84,11 @@ if (!doNotTrack) {
 	<article class="post">
 		<header class="post__header">
 			<h1 class="post__title">Java 설치 및 VSCode 설정</h1>
-			
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">프랑비(Prnagbi)</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-02-08T22:08:44&#43;09:00">2021-02-08</time></div></div>
 		</header>
 		<div class="content post__content clearfix">
 			<ul>
@@ -133,22 +167,86 @@ Search for dependencies: 나중에 설정하면 되니 선택하지 않고 그�
 	</article>
 </main>
 
+<div class="authorbox clearfix">
+	<div class="authorbox__header">
+		<span class="authorbox__name">About 프랑비(Prnagbi)</span>
+	</div>
+	<div class="authorbox__description">
+		업무로 이것저것 개발합니다. 취미도 이것저것 내키는대로 합니다. 안할 때도 있고요.
+	</div>
+</div>
 
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/post/3/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Go 설치 및 VSCode 설정</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/post/5/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Go Web Framework - Echo</p>
+		</a>
+	</div>
+</nav>
 
 
 			</div>
-			
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://prangbi.github.io/" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/7/">Dart 웹 서버 프로젝트 생성</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/6/">Flutter &#43; Dart 설치 및  VSCode 설정</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/5/">Go Web Framework - Echo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/4/">Java 설치 및 VSCode 설정</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/3/">Go 설치 및 VSCode 설정</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/prangbi" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:prangbi@gmail.com">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+				<span>prangbi@gmail.com</span>
+			</a>
+		</div>
+
+		
+	</div>
+</div>
+</aside>
 		</div>
 		<footer class="footer">
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2021 프랑비의 개발로그.
+			&copy; 2021 프랑비(Prangbi).
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
 </footer>
 	</div>
 <script async defer src="/js/menu.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
 </html>
