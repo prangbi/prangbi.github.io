@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dart on 프랑비의 개발로그</title>
+    <link>https://prangbi.github.io/tags/dart/</link>
+    <description>Recent content in Dart on 프랑비의 개발로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 09 Sep 2021 22:06:57 +0900</lastBuildDate><atom:link href="https://prangbi.github.io/tags/dart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dart 웹 서버 프로젝트 생성</title>
+      <link>https://prangbi.github.io/post/7/</link>
+      <pubDate>Thu, 09 Sep 2021 22:06:57 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/post/7/</guid>
+      <description>1. 서론. Flutter 프레임워크 설치 시 Dart가 기본 설치됩니다. Dart 언어로 개발되었기 때문입니다. CLI 앱, GUI 앱, 웹 서버까지 모두 개발 가능해 하나의 언어로 서비스 전체를 구성할 수 있습니다. 언어에 익숙해질 겸 웹 서버 프로젝트를 생성해 보았습니다.
+2. 프로젝트 생성. 상단 메뉴의 View - Command Palette를 선택하거나 Shift+Command+P를 입력해 커맨드 팔레트를 실행합니다.
+&amp;gt;Dart: New Project 를 입력하고 엔터를 입력합니다. 우측 하단에 &amp;ldquo;Stagehand needs to be installed with &amp;lsquo;pub global active stagehand&amp;rsquo; to use this feature.</description>
+    </item>
+    
+    <item>
+      <title>Flutter &#43; Dart 설치 및  VSCode 설정</title>
+      <link>https://prangbi.github.io/post/6/</link>
+      <pubDate>Tue, 07 Sep 2021 22:09:10 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/post/6/</guid>
+      <description>1. 서론. 1-1. 이슈. 개발을 하다 보면 같은 서비스라 할지라도 윈도우/리눅스/맥 프로그램은 아예 별개로 구분하는 반면 안드로이드/iOS 앱은 별개로 구분하지 않으려는 경향이 강합니다. 경영/운영/기획/디자인 파트는 물론이고 앱 개발자를 제외한 개발자들도 그렇게 인식합니다. 심지어 PC웹/모바일웹도 구분하는데 말이죠.
+여기에서 문제가 발생하는데, 간단한 수정이라 할지라도 안드로이드/iOS 앱을 각각 개발해야 하는 것을 이해하지 않고 하나의 일정으로 산정하려 해 마찰이 자주 발생합니다. 인력도 안드로이드/iOS 앱 개발자 각각 필요하지 않다고 생각하는 경우가 많습니다.
+1-2. 필요성. 이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

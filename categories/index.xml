@@ -5,6 +5,43 @@
     <link>https://prangbi.github.io/categories/</link>
     <description>Recent content in Categories on 프랑비의 개발로그</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko-kr</language><atom:link href="https://prangbi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 09 Sep 2021 22:06:57 +0900</lastBuildDate><atom:link href="https://prangbi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Server</title>
+      <link>https://prangbi.github.io/categories/server/</link>
+      <pubDate>Thu, 09 Sep 2021 22:06:57 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/categories/server/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>https://prangbi.github.io/categories/app/</link>
+      <pubDate>Tue, 07 Sep 2021 22:09:10 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/categories/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSCode</title>
+      <link>https://prangbi.github.io/categories/vscode/</link>
+      <pubDate>Sun, 20 Dec 2020 11:15:43 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/categories/vscode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://prangbi.github.io/categories/github/</link>
+      <pubDate>Tue, 15 Dec 2020 22:47:44 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/categories/github/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

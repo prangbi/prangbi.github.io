@@ -13,23 +13,19 @@
 하지만, 여러 번의 이사, 컴퓨터 교체, 워드프레스 및 플러그인의 잦은 업데이트로 인해 항상 관리해주어야 한다는 부담감과 귀찮음에 운영을 중단했고, 이후 블로그는 아니지만 페이스북에 한동안 빠졌다가 글 작성을 완전히 멈췄습니다.
 그래도 개발 관련 사항을 정리해야겠다는 생각은 항상 가지고 있어서 GitHub Pages 서비스 오픈 시기부터 눈여겨 보다가 이제서야 이용하게 되었습니다." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://prangbi.github.io/post/1/" />
+<meta property="og:url" content="https://prangbi.github.io/post/1/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-12-15T22:47:44+09:00" />
 <meta property="article:modified_time" content="2020-12-15T22:47:44+09:00" />
+
 
 		<meta itemprop="name" content="GitHub Pages 초기 설정">
 <meta itemprop="description" content="1. 서론. 블로그는 서비스형과 설치형이 있습니다.
 서비스형인 싸이월드 블로그와 네이버 블로그를 이용하면서 내가 작성한 컨텐츠 원본을 내 디스크에 저장하지 못한다는 것이 아쉬워 설치형 워드프레스로 운영했던 적이 있습니다. 내 서버에 내가 생성한 컨텐츠가 저장되니 온전히 내것이었죠.
 하지만, 여러 번의 이사, 컴퓨터 교체, 워드프레스 및 플러그인의 잦은 업데이트로 인해 항상 관리해주어야 한다는 부담감과 귀찮음에 운영을 중단했고, 이후 블로그는 아니지만 페이스북에 한동안 빠졌다가 글 작성을 완전히 멈췄습니다.
-그래도 개발 관련 사항을 정리해야겠다는 생각은 항상 가지고 있어서 GitHub Pages 서비스 오픈 시기부터 눈여겨 보다가 이제서야 이용하게 되었습니다.">
-<meta itemprop="datePublished" content="2020-12-15T22:47:44+09:00" />
+그래도 개발 관련 사항을 정리해야겠다는 생각은 항상 가지고 있어서 GitHub Pages 서비스 오픈 시기부터 눈여겨 보다가 이제서야 이용하게 되었습니다."><meta itemprop="datePublished" content="2020-12-15T22:47:44+09:00" />
 <meta itemprop="dateModified" content="2020-12-15T22:47:44+09:00" />
-<meta itemprop="wordCount" content="478">
-
-
-
-<meta itemprop="keywords" content="" />
-
+<meta itemprop="wordCount" content="486">
+<meta itemprop="keywords" content="환경설정," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="GitHub Pages 초기 설정"/>
 <meta name="twitter:description" content="1. 서론. 블로그는 서비스형과 설치형이 있습니다.
@@ -47,16 +43,14 @@
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4R1M62ZSN"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'G-R4R1M62ZSN', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-R4R1M62ZSN', { 'anonymize_ip': false });
 }
 </script>
 
@@ -74,7 +68,29 @@ if (!doNotTrack) {
 				</div>
 		</a>
 	</div>
-		<div class="divider"></div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/me/">
+				
+				<span class="menu__text">about me</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
 	</div>
 </header>
 		<div class="wrapper flex">
@@ -88,7 +104,9 @@ if (!doNotTrack) {
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">프랑비(Prnagbi)</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-12-15T22:47:44&#43;09:00">2020-12-15</time></div></div>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-12-15T22:47:44&#43;09:00">2020-12-15</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/github/" rel="category">GitHub</a>
+	</span>
+</div></div>
 		</header>
 		<div class="content post__content clearfix">
 			<h2 id="1-서론">1. 서론.</h2>
@@ -112,18 +130,18 @@ if (!doNotTrack) {
 <ul>
 <li>아래 명령어 중 <strong>아이디</strong> 부분을 자신의 GitHub 아이디로 교체해 주세요.</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## Git 저장소 복제.</span>
-$ git clone https://github.com/아이디/아이디.github.io
-
-<span style="color:#75715e">## 테스트 HTML 작성.</span>
-$ cd 아이디.github.io
-$ echo <span style="color:#e6db74">&#34;Hello World&#34;</span> &gt; index.html
-
-<span style="color:#75715e">## Git 푸시.</span>
-$ git add -all
-$ git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
-$ push -u origin main
-</code></pre></div><p>이제 웹 브라우저로 https://아이디.github.io 에 접속해 보면 Htllo World가 출력될 것입니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## Git 저장소 복제.</span>
+</span></span><span style="display:flex;"><span>$ git clone https://github.com/아이디/아이디.github.io
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 테스트 HTML 작성.</span>
+</span></span><span style="display:flex;"><span>$ cd 아이디.github.io
+</span></span><span style="display:flex;"><span>$ echo <span style="color:#e6db74">&#34;Hello World&#34;</span> &gt; index.html
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Git 푸시.</span>
+</span></span><span style="display:flex;"><span>$ git add -all
+</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
+</span></span><span style="display:flex;"><span>$ push -u origin main
+</span></span></code></pre></div><p>이제 웹 브라우저로 https://아이디.github.io 에 접속해 보면 Htllo World가 출력될 것입니다.</p>
 <p> </p>
 <h2 id="3-hugo">3. Hugo.</h2>
 <p>사이트를 작성하는 방법은 다양하지만, MarkDown으로 작성한 글을 MarkUp으로 변환해 주는 툴들이 인기입니다. 저는 <a href="https://jamstack.org/generators">https://jamstack.org/generators</a>에 나열된 다양한 툴 중 Hugo를 선택했습니다.</p>
@@ -131,60 +149,72 @@ $ push -u origin main
 <li>참고: <a href="https://gohugo.io/getting-started/quick-start">https://gohugo.io/getting-started/quick-start</a></li>
 </ul>
 <h3 id="3-1-hugo-설치">3-1. Hugo 설치.</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## 리눅스 사용자라면,</span>
-$ snap install hugo
-</code></pre></div><p>or</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## 맥 사용자라면,</span>
-$ brew install hugo
-<span style="color:#75715e">## or</span>
-$ port install hugo
-</code></pre></div><h3 id="3-2-사이트-생성">3-2. 사이트 생성.</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## 작업 디렉토리 생성.</span>
-$ mkdir hugo-workspace
-$ cd hugo-workspace
-
-<span style="color:#75715e">## myblog라는 사이트 생성.</span>
-$ hugo new site myblog
-</code></pre></div><h3 id="3-3-테마-설치">3-3. 테마 설치.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## 리눅스 사용자라면,</span>
+</span></span><span style="display:flex;"><span>$ snap install hugo
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## 맥 사용자라면,</span>
+</span></span><span style="display:flex;"><span>$ brew install hugo
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## or</span>
+</span></span><span style="display:flex;"><span>$ port install hugo
+</span></span></code></pre></div><h3 id="3-2-사이트-생성">3-2. 사이트 생성.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## 작업 디렉토리 생성.</span>
+</span></span><span style="display:flex;"><span>$ mkdir hugo-workspace
+</span></span><span style="display:flex;"><span>$ cd hugo-workspace
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## myblog라는 사이트 생성.</span>
+</span></span><span style="display:flex;"><span>$ hugo new site myblog
+</span></span></code></pre></div><h3 id="3-3-테마-설치">3-3. 테마 설치.</h3>
 <h4 id="3-3-1-테마-다운로드">3-3-1. 테마 다운로드.</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## MarkDown 파일을 Git으로 관리하려면,</span>
-
-$ cd myblog
-<span style="color:#75715e">## MarkDown으로 작성한 파일을 Git으로 저장/관리하기 위해 Git 초기화.</span>
-$ git init
-<span style="color:#75715e">## myblog의 submodule로 테마 복제.</span>
-$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
-</code></pre></div><p>or</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## MarkDown 파일을 관리하지 않고 publish만 이용하려면,</span>
-테마 파일을 다운받아 myblog/themes/ 디렉토리 하위에 압축해제
-</code></pre></div><h4 id="3-3-2-테마-설정">3-3-2. 테마 설정.</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## config.toml에 theme = &#34;ananke&#34; 라인 추가.</span>
-echo <span style="color:#e6db74">&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml
-</code></pre></div><h3 id="3-4-페이지-작성">3-4. 페이지 작성.</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## posts 라는 카테고리에 first-post 페이지 작성하는 예.</span>
-hugo new posts/first-post.md
-</code></pre></div><p>myblog/content/posts/first-post.md 파일이 생성되며, 아래와 같은 기본 내용이 적상됩니다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">---
-title: <span style="color:#e6db74">&#34;First Post&#34;</span>
-date: 2020-12-15T20:47:11+09:00
-draft: true
----
-
-</code></pre></div><p>그 아래부터 MarkDown 형식으로 작성하면 됩니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## MarkDown 파일을 Git으로 관리하려면,</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$ cd myblog
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## MarkDown으로 작성한 파일을 Git으로 저장/관리하기 위해 Git 초기화.</span>
+</span></span><span style="display:flex;"><span>$ git init
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## myblog의 submodule로 테마 복제.</span>
+</span></span><span style="display:flex;"><span>$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</span></span><span style="display:flex;"><span>$ git submodule init
+</span></span><span style="display:flex;"><span>$ git submodule update
+</span></span></code></pre></div><p>or</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## MarkDown 파일을 관리하지 않고 publish만 이용하려면,</span>
+</span></span><span style="display:flex;"><span>테마 파일을 다운받아 myblog/themes/ 디렉토리 하위에 압축해제
+</span></span></code></pre></div><h4 id="3-3-2-테마-설정">3-3-2. 테마 설정.</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## config.toml에 theme = &#34;ananke&#34; 라인 추가.</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;theme = &#34;ananke&#34;&#39;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><h3 id="3-4-페이지-작성">3-4. 페이지 작성.</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## posts 라는 카테고리에 first-post 페이지 작성하는 예.</span>
+</span></span><span style="display:flex;"><span>hugo new posts/first-post.md
+</span></span></code></pre></div><p>myblog/content/posts/first-post.md 파일이 생성되며, 아래와 같은 기본 내용이 적상됩니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: <span style="color:#e6db74">&#34;First Post&#34;</span>
+</span></span><span style="display:flex;"><span>date: 2020-12-15T20:47:11+09:00
+</span></span><span style="display:flex;"><span>draft: true
+</span></span><span style="display:flex;"><span>---
+</span></span></code></pre></div><p>그 아래부터 MarkDown 형식으로 작성하면 됩니다.</p>
 <h3 id="3-5-사이트-확인">3-5. 사이트 확인.</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## hugo 서버 시작.</span>
-$ hugo server -D
-</code></pre></div><p><strong>http://localhost:1313</strong> 으로 접속하면 적용한 테마와 작성한 페이지가 표시됩니다. 히지만, 아직 사이트에 배포된 것이 아니기 때문에 <strong>http://아이디.github.io</strong>에 접속해도 확인할 수 없을 것입니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## hugo 서버 시작.</span>
+</span></span><span style="display:flex;"><span>$ hugo server -D
+</span></span></code></pre></div><p><strong>http://localhost:1313</strong> 으로 접속하면 적용한 테마와 작성한 페이지가 표시됩니다. 히지만, 아직 사이트에 배포된 것이 아니기 때문에 <strong>http://아이디.github.io</strong>에 접속해도 확인할 수 없을 것입니다.</p>
 <h3 id="3-6-markup으로-변환">3-6. MarkUp으로 변환.</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## 작성한 MarkDown 페이지를 MarkUp으로 변환.</span>
-$ hugo -D
-</code></pre></div><p>myblog/public/ 디렉토리에 MarkUp으로 변환된 파일들이 생성됩니다. 해당 파일들을 <strong>아이디.github.io</strong> 저장소에 저장하고 웹 브라우저로 http://아이디.github.io에 접속해서 확인하면 됩니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## 작성한 MarkDown 페이지를 MarkUp으로 변환.</span>
+</span></span><span style="display:flex;"><span>$ hugo -D
+</span></span></code></pre></div><p>myblog/public/ 디렉토리에 MarkUp으로 변환된 파일들이 생성됩니다. 해당 파일들을 <strong>아이디.github.io</strong> 저장소에 저장하고 웹 브라우저로 http://아이디.github.io에 접속해서 확인하면 됩니다.</p>
 <h3 id="3-7-public-디렉토리를-git으로-관리">3-7. public 디렉토리를 Git으로 관리.</h3>
 <p>MarkUp으로 변환된 결과물을 매번 직접 <strong>아이디.github.io</strong> 저장소에 복사하는 수고를 덜기 위해 Git submodule로 관리하면 편합니다.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ git submodule add -b main https://github.com/아이디/아이디.github.io.git public
-</code></pre></div><p>이후 public 디렉토리는 Git으로 관리되며, commit -&gt; push 후 <strong>http://아이디.github.io</strong>에 접속해 보면 업데이트가 되어 있을 것입니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git submodule add -b main https://github.com/아이디/아이디.github.io.git public
+</span></span></code></pre></div><p>이후 public 디렉토리는 Git으로 관리되며, commit -&gt; push 후 <strong>http://아이디.github.io</strong>에 접속해 보면 업데이트가 되어 있을 것입니다.</p>
 
 		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/" rel="tag">환경설정</a>
+		</li>
+	</ul>
+</div>
+		</footer>
 	</article>
 </main>
 
@@ -229,6 +259,33 @@ $ hugo -D
 		</ul>
 	</div>
 </div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/app/">App</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/github/">GitHub</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/server/">Server</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vscode/">VSCode</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/dart/" title="Dart">Dart</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/echo-framework/" title="Echo Framework">Echo Framework</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/flutter/" title="Flutter">Flutter</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/java/" title="Java">Java</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/spring-framework/" title="Spring Framework">Spring Framework</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/" title="환경설정">환경설정</a>
+	</div>
+</div>
 <div class="widget-social widget">
 	<h4 class="widget-social__title widget__title">Social</h4>
 	<div class="widget-social__content widget__content">
@@ -254,7 +311,7 @@ $ hugo -D
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2021 프랑비(Prangbi).
+			&copy; 2022 프랑비(Prangbi).
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>

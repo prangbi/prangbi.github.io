@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on 프랑비의 개발로그</title>
+    <link>https://prangbi.github.io/categories/server/</link>
+    <description>Recent content in Server on 프랑비의 개발로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Thu, 09 Sep 2021 22:06:57 +0900</lastBuildDate><atom:link href="https://prangbi.github.io/categories/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dart 웹 서버 프로젝트 생성</title>
+      <link>https://prangbi.github.io/post/7/</link>
+      <pubDate>Thu, 09 Sep 2021 22:06:57 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/post/7/</guid>
+      <description>1. 서론. Flutter 프레임워크 설치 시 Dart가 기본 설치됩니다. Dart 언어로 개발되었기 때문입니다. CLI 앱, GUI 앱, 웹 서버까지 모두 개발 가능해 하나의 언어로 서비스 전체를 구성할 수 있습니다. 언어에 익숙해질 겸 웹 서버 프로젝트를 생성해 보았습니다.
+2. 프로젝트 생성. 상단 메뉴의 View - Command Palette를 선택하거나 Shift+Command+P를 입력해 커맨드 팔레트를 실행합니다.
+&amp;gt;Dart: New Project 를 입력하고 엔터를 입력합니다. 우측 하단에 &amp;ldquo;Stagehand needs to be installed with &amp;lsquo;pub global active stagehand&amp;rsquo; to use this feature.</description>
+    </item>
+    
+    <item>
+      <title>Go Web Framework - Echo</title>
+      <link>https://prangbi.github.io/post/5/</link>
+      <pubDate>Tue, 09 Feb 2021 21:19:23 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/post/5/</guid>
+      <description>1. 서론. 언어에 상관 없이 네트워크 소켓만 열 수 있다면 서버 개발이 가능합니다. 그 중 HTTP를 열어두면 웹 서버가 되는 것이죠. 요즘 언어들은 정형화 된 HTTP 모듈을 기본적으로 제공하기 때문에 간단한 웹 서버 정도는 쉽게 개발 가능합니다. 하지만 기능이 복잡해질수록 프레임워크의 힘이 발휘됩니다. 라우팅, 헤더/파라미터/바디 파싱, JSON 인코드/디코드, 인증, 로깅, 파일 업/다운로드, TLS 등등 많은 것들이 이미 구현되어 제공됩니다. 그것도 오픈소스로.
+그럼 Go 웹 프레임워크는 어떠한 것들이 있을까요? https://github.com/mingrammer/go-web-framework-stars 역시나 많습니다.</description>
+    </item>
+    
+    <item>
+      <title>Java 설치 및 VSCode 설정</title>
+      <link>https://prangbi.github.io/post/4/</link>
+      <pubDate>Mon, 08 Feb 2021 22:08:44 +0900</pubDate>
+      
+      <guid>https://prangbi.github.io/post/4/</guid>
+      <description>구형 맥북을 팔고 임시로 구입한 노트북에다 리눅스를 설치해 사용하느라 바로 전 포스트까지는 리눅스 기준으로 작성했지만, 맥북 에어 M1을 구입했으니 이제부터 macOS 기준으로 작성합니다. 하지만, 개발환경이 VSCode로 동일하니 이질감이 없을 것입니다. 1. Java 설치. 맥, 리눅스, 윈도우 사용자는 https://adoptopenjdk.net 에서 다운받아 설치하면 됩니다.
+맥에서는 아래와 같이 설치할 수도 있습니다.
+$ brew install openjdk ## 또는 $ port install openjdk 리눅스에서는 아래와 같이 설치할 수도 있습니다.
+$ snap install openjdk 2. VSCode 설정.</description>
+    </item>
+    
+  </channel>
+</rss>
