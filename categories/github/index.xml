@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 15 Dec 2020 22:47:44 +0900</lastBuildDate><atom:link href="https://prangbi.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Pages 초기 설정</title>
-      <link>https://prangbi.github.io/post/1/</link>
+      <link>https://prangbi.github.io/posts/1/</link>
       <pubDate>Tue, 15 Dec 2020 22:47:44 +0900</pubDate>
       
-      <guid>https://prangbi.github.io/post/1/</guid>
+      <guid>https://prangbi.github.io/posts/1/</guid>
       <description>1. 서론. 블로그는 서비스형과 설치형이 있습니다.
 서비스형인 싸이월드 블로그와 네이버 블로그를 이용하면서 내가 작성한 컨텐츠 원본을 내 디스크에 저장하지 못한다는 것이 아쉬워 설치형 워드프레스로 운영했던 적이 있습니다. 내 서버에 내가 생성한 컨텐츠가 저장되니 온전히 내것이었죠.
 하지만, 여러 번의 이사, 컴퓨터 교체, 워드프레스 및 플러그인의 잦은 업데이트로 인해 항상 관리해주어야 한다는 부담감과 귀찮음에 운영을 중단했고, 이후 블로그는 아니지만 페이스북에 한동안 빠졌다가 글 작성을 완전히 멈췄습니다.

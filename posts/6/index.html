@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Flutter &#43; Dart 설치 및  VSCode 설정 - 프랑비의 개발로그</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Flutter &#43; Dart 설치 및  VSCode 설정" />
+<meta property="og:description" content="1. 서론. 1-1. 이슈. 개발을 하다 보면 같은 서비스라 할지라도 윈도우/리눅스/맥 프로그램은 아예 별개로 구분하는 반면 안드로이드/iOS 앱은 별개로 구분하지 않으려는 경향이 강합니다. 경영/운영/기획/디자인 파트는 물론이고 앱 개발자를 제외한 개발자들도 그렇게 인식합니다. 심지어 PC웹/모바일웹도 구분하는데 말이죠.
+여기에서 문제가 발생하는데, 간단한 수정이라 할지라도 안드로이드/iOS 앱을 각각 개발해야 하는 것을 이해하지 않고 하나의 일정으로 산정하려 해 마찰이 자주 발생합니다. 인력도 안드로이드/iOS 앱 개발자 각각 필요하지 않다고 생각하는 경우가 많습니다.
+1-2. 필요성. 이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://prangbi.github.io/posts/6/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-07T22:09:10+09:00" />
+<meta property="article:modified_time" content="2021-09-07T22:09:10+09:00" />
+
+
+		<meta itemprop="name" content="Flutter &#43; Dart 설치 및  VSCode 설정">
+<meta itemprop="description" content="1. 서론. 1-1. 이슈. 개발을 하다 보면 같은 서비스라 할지라도 윈도우/리눅스/맥 프로그램은 아예 별개로 구분하는 반면 안드로이드/iOS 앱은 별개로 구분하지 않으려는 경향이 강합니다. 경영/운영/기획/디자인 파트는 물론이고 앱 개발자를 제외한 개발자들도 그렇게 인식합니다. 심지어 PC웹/모바일웹도 구분하는데 말이죠.
+여기에서 문제가 발생하는데, 간단한 수정이라 할지라도 안드로이드/iOS 앱을 각각 개발해야 하는 것을 이해하지 않고 하나의 일정으로 산정하려 해 마찰이 자주 발생합니다. 인력도 안드로이드/iOS 앱 개발자 각각 필요하지 않다고 생각하는 경우가 많습니다.
+1-2. 필요성. 이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다."><meta itemprop="datePublished" content="2021-09-07T22:09:10+09:00" />
+<meta itemprop="dateModified" content="2021-09-07T22:09:10+09:00" />
+<meta itemprop="wordCount" content="691">
+<meta itemprop="keywords" content="환경설정,Flutter,Dart," />
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Flutter &#43; Dart 설치 및  VSCode 설정"/>
+<meta name="twitter:description" content="1. 서론. 1-1. 이슈. 개발을 하다 보면 같은 서비스라 할지라도 윈도우/리눅스/맥 프로그램은 아예 별개로 구분하는 반면 안드로이드/iOS 앱은 별개로 구분하지 않으려는 경향이 강합니다. 경영/운영/기획/디자인 파트는 물론이고 앱 개발자를 제외한 개발자들도 그렇게 인식합니다. 심지어 PC웹/모바일웹도 구분하는데 말이죠.
+여기에서 문제가 발생하는데, 간단한 수정이라 할지라도 안드로이드/iOS 앱을 각각 개발해야 하는 것을 이해하지 않고 하나의 일정으로 산정하려 해 마찰이 자주 발생합니다. 인력도 안드로이드/iOS 앱 개발자 각각 필요하지 않다고 생각하는 경우가 많습니다.
+1-2. 필요성. 이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R4R1M62ZSN"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-R4R1M62ZSN', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="프랑비의 개발로그" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">프랑비의 개발로그</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/">
+				
+				<span class="menu__text">home</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/posts/">
+				
+				<span class="menu__text">posts</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				
+				<span class="menu__text">projects</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/about/me/">
+				
+				<span class="menu__text">about me</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Flutter &#43; Dart 설치 및  VSCode 설정</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">프랑비(Prnagbi)</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-09-07T22:09:10&#43;09:00">2021-09-07</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/app/" rel="category">App</a>
+	</span>
+</div></div>
+		</header>
+		<div class="content post__content clearfix">
+			<h2 id="1-서론">1. 서론.</h2>
+<h3 id="1-1-이슈">1-1. 이슈.</h3>
+<p>개발을 하다 보면 같은 서비스라 할지라도 윈도우/리눅스/맥 프로그램은 아예 별개로 구분하는 반면 안드로이드/iOS 앱은 별개로 구분하지 않으려는 경향이 강합니다. 경영/운영/기획/디자인 파트는 물론이고 앱 개발자를 제외한 개발자들도 그렇게 인식합니다. 심지어 PC웹/모바일웹도 구분하는데 말이죠.<br>
+여기에서 문제가 발생하는데, 간단한 수정이라 할지라도 안드로이드/iOS 앱을 각각 개발해야 하는 것을 이해하지 않고 하나의 일정으로 산정하려 해 마찰이 자주 발생합니다. 인력도 안드로이드/iOS 앱 개발자 각각 필요하지 않다고 생각하는 경우가 많습니다.</p>
+<h3 id="1-2-필요성">1-2. 필요성.</h3>
+<p>이러한 이슈가 최근에만 있었던 것이 아니라 스마트폰 보급 초창기부터 이어져 왔습니다. 이를 완화하기 위한 노력으로 one source, multi platform 솔루션을 도입하려는 노력이 많이 있었죠. 하지만, 기본적으로 오류가 많았고 OS 업데이트에 대한 대응이 제대로 되지 않는 등 문제가 많아 웹앱으로 많이 전환했습니다. 이후 퍼포먼스 측면에서 네이티브로 다시 개발하는 사례가 많아지면서 또다시 일정 산정 및 인력 투입 이슈가 발생했습니다.</p>
+<h3 id="1-3-react-native">1-3. React Native.</h3>
+<p>지속적인 니즈가 있었던 one source, multi platform. Xamarin도 영향력이 상당하긴 했지만 React Native를 기준으로 제대로 정착되었다 생각합니다. 웹 개발자가 Javascript Reactive Programming을 그대로 앱에 적용할 수 있어 인력이 추가로 필요하지 않고, Android/iOS 모두 지원하며, 네이티브 보다는 느리지만 웹앱보다는 월등히 빨랐으니 한동안 많은 사랑을 받았습니다.<br>
+그러나, 페이스북에서 만든 것이라 페이스북 서비스에는 알맞았겠지만, 모바일 OS 특성을 이해하는 앱 개발자가 여전히 필요했고, React Native의 제약을 벗어난 요구사항은 네이티브로 개발해야 했으며, 시간의 흐름에 따라 웹앱의 속도가 빨라져 굳이 React Native로 한번 더 개발할 필요가 없어졌습니다.</p>
+<h3 id="1-4-flutter">1-4. Flutter.</h3>
+<p>이후 Flutter가 등장합니다. 구글에서 만든 UI 프레임워크인지라 최초에는 푸크시아 OS를 타겟으로 사용되었으며, 안드로이드/iOS/웹까지 하나의 소스로 지원하고, canvas에 직접 그리는 방식으로 네이티브 퍼포먼스를 제공합니다. 현 시점에서 React Native를 대체하고 있고, 향후 모바일/웹/데스크탑/임베디드 까지 하나의 코드 베이스로 지원할 예정입니다. Dart 언어로 개발되었으며, Flutter 설치 시 함께 설치됩니다. 언어에 대해 말이 많았지만 Flutter 발표 이후 인식이 많이 개선되었습니다.</p>
+<p> </p>
+<h2 id="2-개발-툴-설치">2. 개발 툴 설치.</h2>
+<ul>
+<li>Android Studio: <a href="https://developer.android.com/studio?hl=ko#downloads">https://developer.android.com/studio?hl=ko#downloads</a></li>
+<li>XCode: <a href="https://apps.apple.com/kr/app/apple-developer/id640199958">https://apps.apple.com/kr/app/apple-developer/id640199958</a></li>
+<li>VSCode: <a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a>, <a href="/post/2/">Visual Studio Code (VSCode)</a></li>
+<li>CocoaPods: <a href="https://cocoapods.org">https://cocoapods.org</a></li>
+<li>Chrome: <a href="https://www.google.co.kr/chrome">https://www.google.co.kr/chrome</a></li>
+</ul>
+<p> </p>
+<h2 id="3-fultter-설치">3. Fultter 설치.</h2>
+<ul>
+<li>참고: <a href="https://flutter.dev/docs/get-started/install">https://flutter.dev/docs/get-started/install</a></li>
+</ul>
+<p>맥 기준, 압축파일을 다운받아 특정 디렉토리에 풀고 PATH를 설정해 줍니다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## 압축해제 및 원하는 디렉토리에 이동.</span>
+</span></span><span style="display:flex;"><span>$ unzip flutter_macos_2.0.1-stable.zip
+</span></span><span style="display:flex;"><span>$ mv flutter ~/tools/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Flutter 실행 PATH 추가.</span>
+</span></span><span style="display:flex;"><span>$ vi ~/.zshenv
+</span></span><span style="display:flex;"><span>FLUTTER_HOME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/Users/username/tools/flutter&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -d <span style="color:#e6db74">&#34;</span>$FLUTTER_HOME<span style="color:#e6db74">/bin&#34;</span> <span style="color:#f92672">]</span> ; <span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>    PATH<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$FLUTTER_HOME<span style="color:#e6db74">/bin:</span>$PATH<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Flutter 설치 확인.</span>
+</span></span><span style="display:flex;"><span>$ flutter --version
+</span></span><span style="display:flex;"><span>Flutter 2.0.1 • channel stable • https://github.com/flutter/flutter.git
+</span></span><span style="display:flex;"><span>Framework • revision c5a4b4029c <span style="color:#f92672">(</span><span style="color:#ae81ff">20</span> hours ago<span style="color:#f92672">)</span> • 2021-03-04 09:47:48 -0800
+</span></span><span style="display:flex;"><span>Engine • revision 40441def69
+</span></span><span style="display:flex;"><span>Tools • Dart 2.12.0
+</span></span></code></pre></div><p> </p>
+<h2 id="4-개발환경-설정">4. 개발환경 설정.</h2>
+<h3 id="4-1-vscode-확장-플러그인-설치">4-1. VSCode 확장 플러그인 설치.</h3>
+<p>[ 상단 메뉴 - 보기 - 확장 ] 선택 또는 Shift+Command+X 를 입력해 확장 탭으로 이동해 Flutter를 검색한 후 Dart Code에서 배포하는 플러그인을 설치합니다.
+<a href="/images/posts/6/20210907_27.png"><img src="/images/posts/6/20210907_27.png" alt="Flutter Docker 실행"></a></p>
+<h3 id="4-2-flutter-doctor">4-2. Flutter doctor.</h3>
+<p>Flutter doctor는 개발 환경 설정이 제대로 되었는지 검사하는 툴로, 미설치 또는 미설정 된 항목을 확인합니다. 상단 메뉴의 View - Command Palette를 선택하거나 Shift+Command+P를 입력해 커맨드 팔레트를 실행합니다.<br>
+<code>&gt;Flutter: Run Flutter Docker</code> 를 입력하고 엔터를 입력합니다.
+<a href="/images/posts/6/20210907_1.png"><img src="/images/posts/6/20210907_1.png" alt="Flutter Docker 실행"></a><br>
+완료된 항목은 [v]로 표시되며 하위 모든 항목이 • 로 표시됩니다. 조치가 필요한 항목은 [!]로 표시되며 하위 항목 중 ! 또는 x 로 표시됩니다. 제 경우 안드로이드 라이센스에 동의하지 않았고, CocoaPods가 설치되지 않아 초지가 필요합니다.
+<a href="/images/posts/6/20210907_2.png"><img src="/images/posts/6/20210907_2.png" alt="Flutter Docker 확인"></a></p>
+<h3 id="4-3-안드로이드-라이센스-동의">4-3. 안드로이드 라이센스 동의.</h3>
+<p>터미널에서</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ flutter docker --android-licenses
+</span></span></code></pre></div><p>를 입력해 All SDK package licenses accepted가 될 때까지 모두 동의합니다.
+<a href="/images/posts/6/20210907_3.png"><img src="/images/posts/6/20210907_3.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_4.png"><img src="/images/posts/6/20210907_4.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_5.png"><img src="/images/posts/6/20210907_5.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_6.png"><img src="/images/posts/6/20210907_6.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_7.png"><img src="/images/posts/6/20210907_7.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_8.png"><img src="/images/posts/6/20210907_8.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_9.png"><img src="/images/posts/6/20210907_9.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_10.png"><img src="/images/posts/6/20210907_10.png" alt="Android licenses 동의"></a><br>
+<a href="/images/posts/6/20210907_11.png"><img src="/images/posts/6/20210907_11.png" alt="Android licenses 동의"></a></p>
+<h3 id="4-4-cocoapods-설치">4-4. CocoaPods 설치.</h3>
+<ul>
+<li>참고: <a href="https://cocoapods.org">https://cocoapods.org</a></li>
+</ul>
+<p>CocoaPods는 Swift와 Objective-C 패키지 매니저로, 애플 플랫폼의 앱 개발에 널리 사용됩니다.
+터미널에서</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ suto gem install cocoapods
+</span></span></code></pre></div><p>를 입력해 설치합니다.
+<a href="/images/posts/6/20210907_12.png"><img src="/images/posts/6/20210907_12.png" alt="CocoaPods 설치"></a><br>
+<a href="/images/posts/6/20210907_13.png"><img src="/images/posts/6/20210907_13.png" alt="CocoaPods 설치"></a></p>
+<h3 id="4-5-설정-완료">4-5. 설정 완료.</h3>
+<p>모든 조치가 완료되었으면 다시 한번 확인합니다. 상단 메뉴의 View - Command Palette를 선택하거나 Shift+Command+P를 입력해 커맨드 팔레트를 실행합니다.<br>
+<code>&gt;Flutter: Run Flutter Doctor</code> 를 입력하고 엔터를 입력합니다.
+<a href="/images/posts/6/20210907_14.png"><img src="/images/posts/6/20210907_14.png" alt="Flutter Doctor 확인"></a><br>
+설정이 완료되었습니다.</p>
+<p> </p>
+<h2 id="5-프로젝트-생성">5. 프로젝트 생성.</h2>
+<p>상단 메뉴의 View - Command Palette를 선택하거나 Shift+Command+P를 입력해 커맨드 팔레트를 실행합니다.<br>
+<code>&gt;Flutter: New Application Project</code> 를 입력하고 엔터를 입력합니다.
+<a href="/images/posts/6/20210907_15.png"><img src="/images/posts/6/20210907_15.png" alt="프로젝트 생성"></a><br>
+저장할 디렉토리를 지정합니다.
+<a href="/images/posts/6/20210907_16.png"><img src="/images/posts/6/20210907_16.png" alt="프로젝트 생성"></a><br>
+프로젝트명을 입력합니다.
+<a href="/images/posts/6/20210907_17.png"><img src="/images/posts/6/20210907_17.png" alt="프로젝트 생성"></a><br>
+프로젝트가 생성되었습니다. 우측 하단 &ldquo;Would you like to use recommended VS Code settings for Dart &amp; Flutter?&ldquo;의 &lsquo;Yes&rsquo;를 선택하면 좌측에 Flutter 탭이 추가됩니다.
+<a href="/images/posts/6/20210907_18.png"><img src="/images/posts/6/20210907_18.png" alt="프로젝트 생성"></a><br>
+좌측 Flutter 탭을 선택하면 프로젝트 구조를 좀더 쉽게 파악할 수 있습니다.
+<a href="/images/posts/6/20210907_19.png"><img src="/images/posts/6/20210907_19.png" alt="프로젝트 생성"></a></p>
+<p> </p>
+<h2 id="6-실행-및-디버깅">6. 실행 및 디버깅.</h2>
+<p>VSCode에서 상단 메뉴의 Run - Start Debugging을 선택하거나 F5를 입력하면 크롬이 열리며 실행됩니다. 연결 포트는 실행 시 랜덤으로 결정됩니다. 이번에는 49960 포트네요.
+<a href="/images/posts/6/20210907_20.png"><img src="/images/posts/6/20210907_20.png" alt="앱 연결"></a><br>
+http://localhost:9100 또는 http://127.0.0.1:9100 에 접속하면 DevTools for Flutter &amp; Dart를 사용할 수 있습니다.
+<a href="/images/posts/6/20210907_21.png"><img src="/images/posts/6/20210907_21.png" alt="DevTools for Flutter &amp; Dart"></a><br>
+일단 디버깅을 종료하고 다시 실행해 보니 포트가 50183으로 변경되었습니다. 해당 포트로 앱 http://localhost:50183 과 디버그 서비스 ws://127.0.0.1:50183/5OakZQK35vl=/ws 에 접속할 수 있습니다.
+<a href="/images/posts/6/20210907_22.png"><img src="/images/posts/6/20210907_22.png" alt="앱 연결"></a><br>
+9100 포트로 DevTools에 접속 후 ws://127.0.0.1:50183/5OakZQK35vl=/ws 에 연결해 봅시다.
+<a href="/images/posts/6/20210907_23.png"><img src="/images/posts/6/20210907_23.png" alt="DevTools for Flutter &amp; Dart"></a><br>
+디버그 서비스는 Flutter Inspector, Debugger, Logging 탭으로 이루어져 있습니다. 프로젝트를 진행하면서 자주 사용할 듯 합니다.
+<a href="/images/posts/6/20210907_24.png"><img src="/images/posts/6/20210907_24.png" alt="Flutter DevTools"></a><br>
+<a href="/images/posts/6/20210907_25.png"><img src="/images/posts/6/20210907_25.png" alt="Flutter DevTools"></a><br>
+<a href="/images/posts/6/20210907_26.png"><img src="/images/posts/6/20210907_26.png" alt="Flutter DevTools"></a></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/" rel="tag">환경설정</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/flutter/" rel="tag">Flutter</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/dart/" rel="tag">Dart</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<div class="authorbox__header">
+		<span class="authorbox__name">About 프랑비(Prnagbi)</span>
+	</div>
+	<div class="authorbox__description">
+		업무로 이것저것 개발합니다. 취미도 이것저것 내키는대로 합니다. 안할 때도 있고요.
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/5/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Go Web Framework - Echo</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/7/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Dart 웹 서버 프로젝트 생성</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<label>
+			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="https://prangbi.github.io" />
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/projects/1/1/">게시판 설계부터 개발까지</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/7/">Dart 웹 서버 프로젝트 생성</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/6/">Flutter &#43; Dart 설치 및  VSCode 설정</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/5/">Go Web Framework - Echo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/4/">Java 설치 및 VSCode 설정</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/app/">App</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/github/">GitHub</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/server/">Server</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/vscode/">VSCode</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/dart/" title="Dart">Dart</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/echo-framework/" title="Echo Framework">Echo Framework</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/flutter/" title="Flutter">Flutter</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/java/" title="Java">Java</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/spring-framework/" title="Spring Framework">Spring Framework</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95/" title="환경설정">환경설정</a>
+	</div>
+</div>
+<div class="widget-social widget">
+	<h4 class="widget-social__title widget__title">Social</h4>
+	<div class="widget-social__content widget__content">
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="GitHub" rel="noopener noreferrer" href="https://github.com/prangbi" target="_blank">
+				<svg class="widget-social__link-icon icon icon-github" width="24" height="24" viewBox="0 0 384 374"><path d="m192 0c-106.1 0-192 85.8-192 191.7 0 84.7 55 156.6 131.3 181.9 9.6 1.8 13.1-4.2 13.1-9.2 0-4.6-.2-16.6-.3-32.6-53.4 11.6-64.7-25.7-64.7-25.7-8.7-22.1-21.3-28-21.3-28-17.4-11.9 1.3-11.6 1.3-11.6 19.3 1.4 29.4 19.8 29.4 19.8 17.1 29.3 44.9 20.8 55.9 15.9 1.7-12.4 6.7-20.8 12.2-25.6-42.6-4.8-87.5-21.3-87.5-94.8 0-20.9 7.5-38 19.8-51.4-2-4.9-8.6-24.3 1.9-50.7 0 0 16.1-5.2 52.8 19.7 15.3-4.2 31.7-6.4 48.1-6.5 16.3.1 32.7 2.2 48.1 6.5 36.7-24.8 52.8-19.7 52.8-19.7 10.5 26.4 3.9 45.9 1.9 50.7 12.3 13.4 19.7 30.5 19.7 51.4 0 73.7-44.9 89.9-87.7 94.6 6.9 5.9 13 17.6 13 35.5 0 25.6-.2 46.3-.2 52.6 0 5.1 3.5 11.1 13.2 9.2 76.2-25.5 131.2-97.3 131.2-182 0-105.9-86-191.7-192-191.7z"/></svg>
+				<span>GitHub</span>
+			</a>
+		</div>
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Email" href="mailto:prangbi@gmail.com">
+				<svg class="widget-social__link-icon icon icon-mail" width="24" height="24" viewBox="0 0 416 288"><path d="m0 16v256 16h16 384 16v-16-256-16h-16-384-16zm347 16-139 92.5-139-92.5zm-148 125.5 9 5.5 9-5.5 167-111.5v210h-352v-210z"/></svg>
+				<span>prangbi@gmail.com</span>
+			</a>
+		</div>
+
+		
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2022 프랑비(Prangbi).
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
